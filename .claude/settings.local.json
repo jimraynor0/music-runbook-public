@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "Bash(yarn build)",
+      "Bash(firebase login:*)",
+      "Bash(chmod +x:*)",
+      "Bash(python3 $CLI:*)",
+      "Bash(yarn add:*)",
+      "Bash(yarn test:coverage:*)",
+      "Bash(yarn test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
